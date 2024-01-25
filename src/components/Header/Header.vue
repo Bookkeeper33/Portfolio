@@ -14,7 +14,7 @@
         <div class="container flex flex-col items-center justify-between gap-2 gap-y-5 sm:flex-row">
             <div class="flex w-full justify-between gap-x-2 text-white sm:w-auto">
                 <span
-                    class="group flex cursor-pointer items-center justify-center text-lg font-bold"
+                    class="group flex cursor-pointer items-center justify-center text-lg font-bold sm:text-2xl"
                     tabindex="0"
                     ><i
                         class="fa-solid fa-hashtag text-xl text-purple-300 duration-300 ease-in-out group-hover:text-purple-500"
