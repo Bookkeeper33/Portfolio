@@ -1,10 +1,10 @@
 <script setup>
-    import hero from "@/assets/hero.png";
+    import gosling from "@/assets/gosling.png";
 </script>
 
 <template>
     <div
-        class="container flex flex-col items-center justify-center px-3 py-4 text-white sm:mx-auto sm:flex-row sm:p-12"
+        class="container flex flex-col items-center justify-center px-3 py-4 text-white sm:mx-auto sm:flex-row sm:p-10"
     >
         <div class="space-y-5 sm:max-w-md">
             <h1 class="text-bold md:2xl text-xl lg:text-3xl">
@@ -21,11 +21,7 @@
             </button>
         </div>
         <div class="space-y-5 sm:max-w-md">
-            <img
-                :src="hero"
-                alt="Cartoon Yaroslav programming"
-                class="mx-auto w-[360px] object-cover sm:w-[460px]"
-            />
+            <img :src="gosling" alt="" class="mx-auto w-full max-w-sm sm:max-w-[660px]" />
             <div class="flex items-center gap-x-2 border px-2 py-1">
                 <i class="fa-solid fa-square text-lg text-green-500"></i>
                 <p class="text-sm md:text-base lg:text-lg">
