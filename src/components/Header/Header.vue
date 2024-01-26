@@ -11,8 +11,8 @@
 
 <template>
     <header class="flex justify-center px-3 py-5">
-        <div class="container flex flex-col items-center justify-between gap-2 gap-y-5 sm:flex-row">
-            <div class="flex w-full justify-between gap-x-2 text-white sm:w-auto">
+        <div class="container flex flex-col items-center justify-between gap-2 gap-y-5 md:flex-row">
+            <div class="flex w-full justify-between gap-x-2 text-white md:w-auto">
                 <span
                     class="group flex cursor-pointer items-center justify-center text-lg font-bold sm:text-2xl"
                     tabindex="0"
@@ -24,14 +24,14 @@
                 <button
                     @click="toggleBurger()"
                     aria-label="Toggle navigation menu"
-                    class="block text-white transition-transform active:scale-75 sm:hidden"
+                    class="block text-white transition-transform active:scale-75 md:hidden"
                 >
                     <i v-if="!isOpen" class="fa-solid fa-align-right text-2xl text-purple-300"></i>
                     <i v-else class="fa-solid fa-circle-xmark text-2xl text-purple-300"></i>
                 </button>
             </div>
 
-            <Navigation :class="{ hidden: !isOpen }" class="sm:block" />
+            <Navigation :class="{ hidden: !isOpen }" class="md:block" />
         </div>
     </header>
 </template>
