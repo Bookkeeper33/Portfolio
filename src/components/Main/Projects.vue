@@ -1,5 +1,5 @@
 <script setup>
-    import ProjectCard from "../ProjectCard.vue";
+    import ProjectCard from "@/components/UI/ProjectCard.vue";
     import weatherApp from "@/assets/projects/weather-app.png";
     import todoApp from "@/assets/projects/todo.png";
     import restaurant from "@/assets/projects/restaurant.png";
