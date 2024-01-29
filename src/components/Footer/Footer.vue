@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <footer class="flex justify-center border-t border-t-gray-400 px-3 py-6 sm:px-4 sm:py-6">
+    <footer class="flex justify-center border-t border-t-purple-400 px-3 py-6 sm:px-4 sm:py-6">
         <div
             class="container flex flex-col items-center gap-5 text-white sm:grid sm:grid-cols-2 sm:grid-rows-1"
         >
