@@ -25,14 +25,14 @@
             >
                 <a :href="preview" target="_blank" aria-label="opens in new tab">
                     <button
-                        class="w-full rounded-sm border-none px-7 py-1 text-sm ring-1 ring-purple-400 duration-300 ease-in-out hover:bg-purple-500 sm:text-base"
+                        class="w-full rounded-sm border-none px-7 py-1 text-sm ring-1 ring-purple-400 duration-300 ease-in-out hover:bg-purple-500 active:scale-95 sm:text-base"
                     >
                         Live<i class="fa-solid fa-flask ml-1 text-xs sm:text-sm"></i>
                     </button>
                 </a>
                 <a :href="code" target="_blank" aria-label="opens in new tab">
                     <button
-                        class="w-full rounded-sm border-none px-7 py-1 text-sm ring-1 ring-teal-500 duration-300 ease-in-out hover:bg-teal-500 sm:text-base"
+                        class="w-full rounded-sm border-none px-7 py-1 text-sm ring-1 ring-teal-500 duration-300 ease-in-out hover:bg-teal-500 active:scale-95 sm:text-base"
                     >
                         Code<i class="fa-solid fa-code ml-1 text-xs sm:text-sm"></i>
                     </button>
