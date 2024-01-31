@@ -5,6 +5,7 @@
     import Projects from "@/components/Main/Projects.vue";
     import Skills from "@/components/Main/Skills.vue";
     import About from "@/components/Main/About.vue";
+    import Contact from "@/components/Main/Contact.vue";
 </script>
 
 <template>
@@ -14,6 +15,7 @@
         <Projects />
         <Skills />
         <About />
+        <Contact />
     </main>
     <Footer />
 </template>
