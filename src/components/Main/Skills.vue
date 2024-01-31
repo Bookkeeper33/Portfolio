@@ -18,7 +18,7 @@
 </script>
 
 <template>
-    <section class="w-full px-3 py-4 sm:p-10">
+    <section class="w-full px-3 py-4 sm:p-10" id="skills">
         <div class="container mx-auto flex items-center">
             <i class="fa-solid fa-hashtag text-xl text-purple-300"></i>
             <h2 class="text-lg sm:text-2xl">skills & <span class="text-purple-400">tools</span></h2>

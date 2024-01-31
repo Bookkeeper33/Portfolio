@@ -4,6 +4,7 @@
 
 <template>
     <div
+        id="home"
         class="container flex flex-col items-center justify-center px-3 py-4 text-white sm:mx-auto sm:flex-row sm:p-10"
     >
         <div class="space-y-5 sm:max-w-md">
@@ -17,7 +18,7 @@
             <button
                 class="rounded-sm px-4 py-1 ring-1 ring-purple-500 duration-300 ease-in-out hover:bg-purple-500 hover:ring-0 active:scale-95"
             >
-                Contact me!
+                <a href="mailto:yarko12gmail.com" class="w-full"> Contact me! </a>
             </button>
         </div>
         <div class="space-y-5 sm:max-w-md">

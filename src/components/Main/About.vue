@@ -1,20 +1,20 @@
 <script setup>
-    import yaroslav from "@/assets/me.png";
+    import memoji from "@/assets/memoji.png";
 </script>
 
 <template>
-    <section class="w-full px-3 py-4 text-white sm:p-10">
+    <section id="about" class="w-full px-3 py-4 text-white sm:p-10">
         <div class="container mx-auto flex items-center">
             <i class="fa-solid fa-hashtag text-xl text-purple-300"></i>
             <h2 class="text-lg sm:text-2xl">about-<span class="text-purple-400">me</span></h2>
         </div>
         <div
-            class="container flex flex-col-reverse items-center text-white sm:mx-auto sm:flex-row-reverse sm:items-start sm:justify-end"
+            class="container flex flex-col-reverse items-center gap-3 text-white sm:mx-auto sm:flex-row-reverse sm:items-start sm:justify-end"
         >
             <img
-                :src="yaroslav"
-                alt=""
-                class="max-w-[320px] self-center max-[320px]:w-full md:max-w-[360px]"
+                :src="memoji"
+                alt="Yaroslav as memoji"
+                class="max-w-[250px] self-center max-[320px]:w-full md:max-w-[300px]"
             />
             <div
                 class="mt-5 space-y-4 text-pretty text-gray-400 antialiased *:text-base sm:max-w-lg md:space-y-5 lg:space-y-8"

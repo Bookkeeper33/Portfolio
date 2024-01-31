@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full px-3 py-4 text-white sm:p-10">
+    <section id="contacts" class="w-full px-3 py-4 text-white sm:p-10">
         <div class="container mx-auto flex items-center">
             <i class="fa-solid fa-hashtag text-xl text-purple-300"></i>
             <h2 class="text-lg sm:text-2xl">contacts</h2>
@@ -14,7 +14,7 @@
                 <span class="text-purple-400">contact me</span>!
             </p>
             <div
-                class="flex w-full flex-col gap-3 sm:flex-row sm:justify-between sm:gap-5 md:justify-end"
+                class="flex w-full flex-col gap-3 sm:flex-row sm:justify-between sm:gap-5 md:justify-end md:gap-x-7"
             >
                 <address class="not-italic">
                     <h3

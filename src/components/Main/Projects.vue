@@ -60,7 +60,7 @@
 </script>
 
 <template>
-    <section class="w-full px-3 py-4 text-white sm:p-10">
+    <section id="projects" class="w-full px-3 py-4 text-white sm:p-10">
         <div class="flex items-center justify-between md:container md:mx-auto">
             <div class="flex flex-auto items-center">
                 <i class="fa-solid fa-hashtag text-xl text-purple-300"></i>
