@@ -10,7 +10,7 @@
     import Contact from "@/components/Main/Contact.vue";
 
     const hero = ref(null);
-    const isVisible = ref(false);
+    const isVisible = ref(true);
 
     const { stop } = useIntersectionObserver(
         hero,
